@@ -1,5 +1,6 @@
 #granze theme v 1.0
-PROMPT='%{$fg_no_bold[yellow]%} » %{$fg_bold[cyan]%} %~ $(git_prompt_info)
+PROMPT='
+%{$fg_bold[cyan]%} %~ $(git_prompt_info)
 %{$fg_bold[white]%}%n %{$reset_color%}%{$fg_bold[red]%}➜ '
 RPROMPT='%{$reset_color%}%T %{$fg_bold[white]%}@ %m%{$reset_color%}'
 
